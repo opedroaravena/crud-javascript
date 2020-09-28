@@ -12,11 +12,12 @@
     .form{
         margin: auto;
         margin-top: 25px;
-        max-width:1140px;
+        max-width:1125px;
         text-align: center;
         align-content: center;
         padding-top: 25px;
         border-style: groove;
+        padding-bottom: 25px;
 
         
     }
@@ -26,10 +27,13 @@
     }
     #edit-box{
         display: none;
-        max-width: 80%;
+        max-width: 100%;
         margin: auto;
-        margin-top: 10px;
+        padding-top: 25px;
+        padding-bottom: 25px;
         text-align: center;
+        background-color: #78ff9a;
+        max-width:1125px;
     }
 
     td{
