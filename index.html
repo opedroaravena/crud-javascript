@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>To Do List</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <img src="./assets/img/kisspng-student-education-clip-art-tco-d-azur-foreign-la-welcome-2-14-attendees-it-factor-live-5b6c935d53df77.0331409715338422693436.png" class="rounded mx-auto d-block" alt="some">
+    </header>
+    
+            <div class="title">
+                <h1>Lista de coisas para fazer</h1>
+        
+            </div>
+
+        <div class="form">
+            <form action="javascript:void(0);" method="POST" onsubmit="app.Add()"> 
+            <input type="text" id="add-todo" placeholder="Coisas a fazer">
+            <input type="submit" value="Add" class="btn btn-primary">
+            </form>
+            <p>Tenho que: </p>
+            <p id="counter"></p>
+
+            <table class="table table-striped">
+            <tr class="to-do">
+                <th><h3>A fazer:</h3></th>
+            </tr>
+                <tbody id="tasks">
+                </tbody>
+            </table>
+        </div>
+
+        <div id="edit-box" role="aria-hidden">
+            <form action="javascript:void(0);" method="POST" id="save-edit">
+            <input type="text" id="edit-todo">
+            <input type="submit" value="Salvar" class="btn btn-success"/> <a onclick="CloseInput()" aria-label="Close">&#10006;</a>
+            </form>
+        </div>
+    
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+
+    .title{
+        text-align: center;
+        margin-top: 25px;
+        background-color: #d0b5ff;
+        font-family: monospace;
+        border-style: groove;
+        margin-right: 400px;
+        margin-left: 400px;
+    }
+
+    .form{
+        margin: auto;
+        margin-top: 25px;
+        max-width:1140px;
+        text-align: center;
+        align-content: center;
+        padding-top: 25px;
+        border-style: groove;
+
+        
+    }
+
+    input[type='submit'], button, [aria-label]{
+        cursor: pointer;
+    }
+    #edit-box{
+        display: none;
+        max-width: 80%;
+        margin: auto;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    td{
+        padding-right: 10px;
+        text-align: left;
+    }
+
+    header{
+        background-color: #fff6a8;
+        margin-right: 400px;
+        margin-left: 400px;
+        border-style: groove;
+
+    }
+    
+    
